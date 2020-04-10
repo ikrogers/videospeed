@@ -61,14 +61,14 @@ chrome.storage.sync.get(tc.settings, function(storage) {
     tc.settings.keyBindings.push({
       action: "slower",
       key: Number(storage.slowerKeyCode) || 83,
-      value: Number(storage.speedStep) || 0.1,
+      value: Number(storage.speedStep) || 0.01,
       force: false,
       predefined: true
     }); // default S
     tc.settings.keyBindings.push({
       action: "faster",
       key: Number(storage.fasterKeyCode) || 68,
-      value: Number(storage.speedStep) || 0.1,
+      value: Number(storage.speedStep) || 0.01,
       force: false,
       predefined: true
     }); // default: D

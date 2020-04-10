@@ -7,7 +7,7 @@ var tcDefaults = {
   audioBoolean: false, // default: false
   startHidden: false, // default: false
   enabled: true, // default enabled
-  controllerOpacity: 0.3, // default: 0.3
+  controllerOpacity: 0.5, // default: 0.3
   keyBindings: [
     { action: "display", key: 86, value: 0, force: false, predefined: true }, // V
     { action: "slower", key: 83, value: 0.1, force: false, predefined: true }, // S
